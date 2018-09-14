@@ -1,0 +1,23 @@
+[[package]]
+name = "euclid"
+version = "0.19.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "num-traits"
+version = "0.2.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "terraria_server"
+version = "0.1.0"
+dependencies = [
+ "euclid 0.19.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum euclid 0.19.0 (registry+https://github.com/rust-lang/crates.io-index)" = "70a2ebdf55fb9d6329046e026329a55ef8fbaae5ea833f56e170beb3125a8a5f"
+"checksum num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "0b3a5d7cc97d6d30d8b9bc8fa19bf45349ffe46241e8816f50f62f6d6aaabee1"
